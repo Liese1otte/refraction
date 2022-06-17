@@ -17,4 +17,3 @@ class ImageScriptTest(TestCase):
         output_color = average_color(self.image)
         expected = RGBColor(169, 159, 141)
         self.assertEqual(output_color, expected)
-
